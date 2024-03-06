@@ -8,12 +8,22 @@
     android:orientation="vertical"
     >
 
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="happy"
+        android:text="樂透"
+        android:textSize="30sp"/>
+
     <TextView
         android:id="@+id/txv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="計數器"
-        android:gravity="center
-"       android:textSize="34sp"/>
+        android:textSize="30sp" />
+
+
 
 </LinearLayout>
